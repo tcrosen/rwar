@@ -1,10 +1,5 @@
 'use strict';
 
-angular.module('codeSamplesApp')
+angular.module('rwar')
   .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
   });
