@@ -1,8 +1,7 @@
-'use strict';
-
 describe('Controller: MainCtrl', function () {
 
-  // load the controller's module
+  'use strict';
+
   beforeEach(module('rwar'));
 
   var MainCtrl,
