@@ -15,4 +15,12 @@ describe('Resource: Category', function() {
   it('should exist', function() {
     expect(Category).toBeDefined();
   });
+
+  it('should insantiate', function() {
+    expect(new Category()).toBeDefined();
+  });
+
+  it('should be a $resource', function() {
+    expect(Category.get).toBeDefined();
+  });
 });
