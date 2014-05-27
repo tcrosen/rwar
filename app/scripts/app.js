@@ -2,7 +2,6 @@
 
 angular.module('rwar', [
   'ngCookies',
-  'ngResource',
   'ngSanitize',
   'ngRoute'
 ])
